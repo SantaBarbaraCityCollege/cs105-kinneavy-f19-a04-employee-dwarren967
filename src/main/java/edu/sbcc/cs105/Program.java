@@ -26,6 +26,11 @@ public class Program {
      *            command line values. Not used in this example.
      */
     public static void main(String[] args) {
-		// TODO: Paste code in here from the sample usage section. Feel free to adjust things like the salary and percent raised
+
+        Employee harry = new Employee("Harry", 10000);
+        harry.raiseSalary(10); // Harry gets a 10% raise.
+        double harrysSalary = harry.getSalary();
+        
+        System.out.println(harrysSalary);
     }
 }
